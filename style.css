@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    display:flex;
+    /* justify-content: center; */
+    align-items: center;
+    overflow: hidden; /* Hide scrollbars */
+}
+.avatar{
+    position: relative;
+    top: -80px;
+    left: -160px;
+    width: 500px;
+    clip-path: circle();
+    z-index: 2;
+    /* border: 5px solid #555555; */
+}
+.borderline{
+    position: relative;
+    top: -80px;
+    left: -685px;
+    width: 550px;
+    clip-path: circle();
+    z-index: 1;
+}
+.name{
+    position: relative;
+    top: -50px;
+    left: 300px;
+    font-size: 50px;
+    font-family: 'Bauhaus 93';
+    color: black;
+}
+.surname{
+    position: relative;
+    top: 10px;
+    left: -125px;
+    font-size: 50px;
+    font-family: 'Bauhaus 93';
+    color: black;
+}
+.studnum{
+    position: relative;
+    top: 75px;
+    left: -425px;
+    font-size: 50px;
+    font-family: 'Bauhaus 93';
+    color: black;
+}
+.facebook{
+    position: relative;
+    top: 200px;
+    left: -1100px;
+}
+.instagram{
+    position: relative;
+    top: 200px;
+    left: -1070px;
+    z-index: 0;
+}
