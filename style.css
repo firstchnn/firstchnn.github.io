@@ -6,14 +6,14 @@
 body{
     height: 100vh;
     display:flex;
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     overflow: hidden; /* Hide scrollbars */
 }
 .avatar{
     position: relative;
     top: -80px;
-    left: -160px;
+    left: 150px;
     width: 500px;
     clip-path: circle();
     z-index: 2;
@@ -22,43 +22,46 @@ body{
 .borderline{
     position: relative;
     top: -80px;
-    left: -685px;
+    left: -375px;
     width: 550px;
     clip-path: circle();
     z-index: 1;
 }
 .name{
     position: relative;
-    top: -50px;
-    left: 300px;
-    font-size: 50px;
-    font-family: 'Bauhaus 93';
+    top: -150px;
+    left: 830px;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
     color: black;
+    z-index: 1;
 }
 .surname{
     position: relative;
-    top: 10px;
-    left: -125px;
-    font-size: 50px;
-    font-family: 'Bauhaus 93';
+    top: -90px;
+    left: 320px;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
     color: black;
+    z-index: 2;
 }
 .studnum{
     position: relative;
-    top: 75px;
-    left: -425px;
-    font-size: 50px;
-    font-family: 'Bauhaus 93';
+    top: -20px;
+    left: -10px;
+    font-size: 60px;
+    font-family: 'Permanent Marker', cursive;
     color: black;
+    z-index: 3;
 }
 .facebook{
     position: relative;
     top: 200px;
-    left: -1100px;
+    left: -790px;
 }
 .instagram{
     position: relative;
     top: 200px;
-    left: -1070px;
+    left: -760px;
     z-index: 0;
 }
